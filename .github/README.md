@@ -1,6 +1,6 @@
 # BingoMachine
 
-Open the html file and you can play a simple bingo game.  
+[This site](https://takyu.github.io/Bingo_Machine/) is where you can enjoy bingo games by yourself.  
 It is recommended that you open it in Chrome.  
 
 ![TopPage of BingoMachine](https://user-images.githubusercontent.com/80075559/114264633-faacde80-9a26-11eb-838e-e5ffb83461e1.png)
