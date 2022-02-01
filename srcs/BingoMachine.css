@@ -1,0 +1,93 @@
+body {
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+}
+
+p#operatingMethod {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+table#bingoCards {
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	border: 2px #2b2b2b solid;
+	text-align: center;
+	empty-cells: show;
+}
+
+table#bingoCards td {
+	width: 60px;
+	height: 60px;
+	border: 1px #2b2b2b outset;
+	font-size: 20px;
+}
+
+#button {
+	text-align: center;
+	margin-bottom: 2em;
+	display: none;
+}
+
+table#showNumber {
+	width: 150px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px #2b2b2b solid;
+	text-align: center;
+	empty-cells: show;
+	margin-bottom: 2em;
+}
+
+table#showNumber td {
+	width: 75px;
+	border: 1px #2b2b2b outset;
+	font-size: 20px;
+}
+
+table#number {
+	width: 700px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px #2b2b2b solid;
+	text-align: center;
+	empty-cells: show;
+}
+
+table#number td {
+	border: 1px #2b2b2b outset;
+	font-size: 20px;
+}
+
+/* create style of dialog */
+#popupResult {
+	text-align: center;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+#popupResultContent {
+	background-color: rgba( 255, 255, 255, 0.9 );
+	width: 200px;
+	text-align: center;
+	margin: 20% auto;
+}
+
+#retry {
+	margin-bottom: 1em;
+}
